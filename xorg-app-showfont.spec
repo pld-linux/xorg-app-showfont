@@ -1,12 +1,12 @@
 Summary:	showfont application
 Summary(pl):	Aplikacja showfont
 Name:		xorg-app-showfont
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/showfont-%{version}.tar.bz2
-# Source0-md5:	1086bbf3493adab31e24ddc8d4a6e204
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/showfont-%{version}.tar.bz2
+# Source0-md5:	339b2faf1ca5114fda414338e15b6e21
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -44,6 +44,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
