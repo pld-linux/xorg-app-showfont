@@ -1,5 +1,5 @@
 Summary:	showfont application
-Summary(pl.UTF-8):   Aplikacja showfont
+Summary(pl.UTF-8):	Aplikacja showfont
 Name:		xorg-app-showfont
 Version:	1.0.1
 Release:	1
