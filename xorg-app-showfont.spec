@@ -1,5 +1,5 @@
 Summary:	showfont application
-Summary(pl):	Aplikacja showfont
+Summary(pl.UTF-8):   Aplikacja showfont
 Name:		xorg-app-showfont
 Version:	1.0.1
 Release:	1
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 showfont application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja showfont.
 
 %prep
