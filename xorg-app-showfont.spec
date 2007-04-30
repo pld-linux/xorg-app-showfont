@@ -1,5 +1,5 @@
-Summary:	showfont application
-Summary(pl.UTF-8):	Aplikacja showfont
+Summary:	showfont application - font dumper for X font server
+Summary(pl.UTF-8):	Aplikacja showfont do wypisywania szczegółów fontów z serwera fontów X
 Name:		xorg-app-showfont
 Version:	1.0.1
 Release:	1
@@ -16,10 +16,14 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-showfont application.
+showfont displays data about a font that matches the given pattern.
+The information shown includes font information, font properties,
+character metrics, and character bitmaps.
 
 %description -l pl.UTF-8
-Aplikacja showfont.
+showfont wyświetla dane o foncie pasującym do zadanego wzorca.
+Informacje obejmują informacje o foncie, właściwości fontu, metryki
+znaków i bitmapy znaków.
 
 %prep
 %setup -q -n showfont-%{version}
