@@ -1,12 +1,12 @@
 Summary:	showfont application - font dumper for X font server
 Summary(pl.UTF-8):	Aplikacja showfont do wypisywania szczegółów fontów z serwera fontów X
 Name:		xorg-app-showfont
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/showfont-%{version}.tar.bz2
-# Source0-md5:	50b466ab6ed4a5b8df5abf1ef844309a
+# Source0-md5:	f7be42f846bb9cd951b5cbeb6aa85dde
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
